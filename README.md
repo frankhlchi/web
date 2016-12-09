@@ -1,5 +1,3 @@
 # frankhlchi.github.io 
 
-#Hello, there!
-
-# welcome to my blog
+# Hello, there! welcome to my blog
