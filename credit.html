@@ -90,7 +90,7 @@ X：客户的财务指标</p>
 
 <p>因为各个财务指标的范围和单位并不一致，所以分析师们必须要完成变量转换这一步骤。 常见的变量转化有Logit变换（对数单位转换），WoE转换，标准化等。其中WoE转换是最常用的转换方法，WoE叫做证据权重(Weight of Evidence)，表示的其实是自变量取某个值的时候对违约比例的一种影响，具体公式为：</p>
 
-<p>log(\frac{P}{1-P})</p>
+<p>log({PD/1-PD)</p>
 
 <p>在具体操作中，我们会对每个财务指标从大到小进行排列，然后将排列后的数据进行分档 （根据违约数据量确定分档数量，需要每档都存在违约样本），每一个档次的客户数量也应当类似。
 对于正向的指标，如净利润， 如果其越大， WoE也随之变小，则说明这个正向指标是一个预测能力强的指标。 而对于反向指标，如负债率， 如果其越小， WoE也随之变小，则说明这个反向指标一个预测能力强的指标。如果指标和WoE并没有什么相关性， 也就是一条水平的直线，则说明这个指标预测能力很弱.</p>
@@ -104,7 +104,7 @@ X：客户的财务指标</p>
 <br>
     <div id="disqus_thread"></div>
 	<div class="footer">
-		<p>© Copyright 2014 by isnowfy, Designed by isnowfy</p>
+		<p>"What hurts more? The pain of hard work? Or the pain of regret?"</p>
 	</div>
 </div>
 <script src="main.js"></script>
